@@ -12,4 +12,6 @@
 
 @property (nonatomic ,strong)UIImageView *imageBtn;
 
+@property (nonatomic ,strong)UIImage *curImage;
+
 @end

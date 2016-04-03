@@ -8,12 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseViewCell.h"
+#import "BaseCellModel.h"
 
 @interface NormalTextCell : BaseViewCell
 
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 
 @property (weak, nonatomic) IBOutlet UILabel *contentLabel;
+
+@property (nonatomic ,strong) BaseCellModel *model;
 
 
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C01C6FE1CB1811400BB0E6E /* BaseCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C01C6FD1CB1811400BB0E6E /* BaseCellModel.m */; };
 		9A6D6A591CAE0EFB0048C0AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A581CAE0EFB0048C0AE /* main.m */; };
 		9A6D6A5C1CAE0EFB0048C0AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A5B1CAE0EFB0048C0AE /* AppDelegate.m */; };
 		9A6D6A5F1CAE0EFB0048C0AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A5E1CAE0EFB0048C0AE /* ViewController.m */; };
@@ -14,37 +15,37 @@
 		9A6D6A671CAE0EFB0048C0AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6D6A651CAE0EFB0048C0AE /* LaunchScreen.storyboard */; };
 		9A6D6A721CAE0EFB0048C0AE /* wangyiScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A711CAE0EFB0048C0AE /* wangyiScrollViewTests.m */; };
 		9A6D6A7D1CAE0EFC0048C0AE /* wangyiScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A7C1CAE0EFC0048C0AE /* wangyiScrollViewUITests.m */; };
-		9A6D6A8E1CAE0FE40048C0AE /* TopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A8D1CAE0FE40048C0AE /* TopScrollView.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6A981CAE12080048C0AE /* ButtomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A971CAE12080048C0AE /* ButtomScrollView.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AA51CAE45CB0048C0AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6D6AA31CAE45CB0048C0AE /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AAC1CAE47520048C0AE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AA91CAE47520048C0AE /* FirstViewController.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AB01CAE480C0048C0AE /* NormalTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AAE1CAE480C0048C0AE /* NormalTextCell.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AB11CAE480C0048C0AE /* NormalTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6D6AAF1CAE480C0048C0AE /* NormalTextCell.xib */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AEF1CAE4D660048C0AE /* AJGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6ABF1CAE4D660048C0AE /* AJGradientView.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AF01CAE4D660048C0AE /* AJPhotoGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AC11CAE4D660048C0AE /* AJPhotoGroupCell.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AF11CAE4D660048C0AE /* AJPhotoGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AC31CAE4D660048C0AE /* AJPhotoGroupView.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AF21CAE4D660048C0AE /* AJPhotoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AC51CAE4D660048C0AE /* AJPhotoListCell.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AF31CAE4D660048C0AE /* AJPhotoListCellTapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AC71CAE4D660048C0AE /* AJPhotoListCellTapView.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AF41CAE4D660048C0AE /* AJPhotoListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AC91CAE4D660048C0AE /* AJPhotoListView.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AF51CAE4D660048C0AE /* AJPhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6ACB1CAE4D660048C0AE /* AJPhotoPickerViewController.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AF61CAE4D660048C0AE /* BoPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A6D6ACC1CAE4D660048C0AE /* BoPhotoPicker.bundle */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AF71CAE4D660048C0AE /* AJPhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AD01CAE4D660048C0AE /* AJPhotoBrowserViewController.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AF81CAE4D660048C0AE /* AJPhotoTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AD21CAE4D660048C0AE /* AJPhotoTapDetectingImageView.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AF91CAE4D660048C0AE /* AJPhotoZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AD41CAE4D660048C0AE /* AJPhotoZoomingScrollView.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AFA1CAE4D660048C0AE /* AJTapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AD61CAE4D660048C0AE /* AJTapDetectingView.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AFB1CAE4D660048C0AE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AD91CAE4D660048C0AE /* MASCompositeConstraint.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AFC1CAE4D660048C0AE /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6ADC1CAE4D660048C0AE /* MASConstraint.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AFD1CAE4D660048C0AE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6ADE1CAE4D660048C0AE /* MASConstraintMaker.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AFE1CAE4D660048C0AE /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AE01CAE4D660048C0AE /* MASLayoutConstraint.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6AFF1CAE4D660048C0AE /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AE41CAE4D660048C0AE /* MASViewAttribute.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6B001CAE4D660048C0AE /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AE61CAE4D660048C0AE /* MASViewConstraint.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6B011CAE4D660048C0AE /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AE81CAE4D660048C0AE /* NSArray+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6B021CAE4D660048C0AE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AEB1CAE4D660048C0AE /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6B031CAE4D660048C0AE /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AED1CAE4D660048C0AE /* View+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6B071CAE56570048C0AE /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6B051CAE56570048C0AE /* SliderViewController.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6B081CAE56570048C0AE /* SliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6D6B061CAE56570048C0AE /* SliderViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		9A6D6B0B1CAE74FA0048C0AE /* BaseViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6B0A1CAE74FA0048C0AE /* BaseViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		9A6D6B0F1CAE7D860048C0AE /* ImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6B0E1CAE7D860048C0AE /* ImageViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		9A6D6A8E1CAE0FE40048C0AE /* TopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A8D1CAE0FE40048C0AE /* TopScrollView.m */; };
+		9A6D6A981CAE12080048C0AE /* ButtomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A971CAE12080048C0AE /* ButtomScrollView.m */; };
+		9A6D6AA51CAE45CB0048C0AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6D6AA31CAE45CB0048C0AE /* Main.storyboard */; };
+		9A6D6AAC1CAE47520048C0AE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AA91CAE47520048C0AE /* FirstViewController.m */; };
+		9A6D6AB01CAE480C0048C0AE /* NormalTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AAE1CAE480C0048C0AE /* NormalTextCell.m */; };
+		9A6D6AB11CAE480C0048C0AE /* NormalTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6D6AAF1CAE480C0048C0AE /* NormalTextCell.xib */; };
+		9A6D6AEF1CAE4D660048C0AE /* AJGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6ABF1CAE4D660048C0AE /* AJGradientView.m */; };
+		9A6D6AF01CAE4D660048C0AE /* AJPhotoGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AC11CAE4D660048C0AE /* AJPhotoGroupCell.m */; };
+		9A6D6AF11CAE4D660048C0AE /* AJPhotoGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AC31CAE4D660048C0AE /* AJPhotoGroupView.m */; };
+		9A6D6AF21CAE4D660048C0AE /* AJPhotoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AC51CAE4D660048C0AE /* AJPhotoListCell.m */; };
+		9A6D6AF31CAE4D660048C0AE /* AJPhotoListCellTapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AC71CAE4D660048C0AE /* AJPhotoListCellTapView.m */; };
+		9A6D6AF41CAE4D660048C0AE /* AJPhotoListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AC91CAE4D660048C0AE /* AJPhotoListView.m */; };
+		9A6D6AF51CAE4D660048C0AE /* AJPhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6ACB1CAE4D660048C0AE /* AJPhotoPickerViewController.m */; };
+		9A6D6AF61CAE4D660048C0AE /* BoPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A6D6ACC1CAE4D660048C0AE /* BoPhotoPicker.bundle */; };
+		9A6D6AF71CAE4D660048C0AE /* AJPhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AD01CAE4D660048C0AE /* AJPhotoBrowserViewController.m */; };
+		9A6D6AF81CAE4D660048C0AE /* AJPhotoTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AD21CAE4D660048C0AE /* AJPhotoTapDetectingImageView.m */; };
+		9A6D6AF91CAE4D660048C0AE /* AJPhotoZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AD41CAE4D660048C0AE /* AJPhotoZoomingScrollView.m */; };
+		9A6D6AFA1CAE4D660048C0AE /* AJTapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AD61CAE4D660048C0AE /* AJTapDetectingView.m */; };
+		9A6D6AFB1CAE4D660048C0AE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AD91CAE4D660048C0AE /* MASCompositeConstraint.m */; };
+		9A6D6AFC1CAE4D660048C0AE /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6ADC1CAE4D660048C0AE /* MASConstraint.m */; };
+		9A6D6AFD1CAE4D660048C0AE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6ADE1CAE4D660048C0AE /* MASConstraintMaker.m */; };
+		9A6D6AFE1CAE4D660048C0AE /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AE01CAE4D660048C0AE /* MASLayoutConstraint.m */; };
+		9A6D6AFF1CAE4D660048C0AE /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AE41CAE4D660048C0AE /* MASViewAttribute.m */; };
+		9A6D6B001CAE4D660048C0AE /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AE61CAE4D660048C0AE /* MASViewConstraint.m */; };
+		9A6D6B011CAE4D660048C0AE /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AE81CAE4D660048C0AE /* NSArray+MASAdditions.m */; };
+		9A6D6B021CAE4D660048C0AE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AEB1CAE4D660048C0AE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		9A6D6B031CAE4D660048C0AE /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6AED1CAE4D660048C0AE /* View+MASAdditions.m */; };
+		9A6D6B071CAE56570048C0AE /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6B051CAE56570048C0AE /* SliderViewController.m */; };
+		9A6D6B081CAE56570048C0AE /* SliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6D6B061CAE56570048C0AE /* SliderViewController.xib */; };
+		9A6D6B0B1CAE74FA0048C0AE /* BaseViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6B0A1CAE74FA0048C0AE /* BaseViewCell.m */; };
+		9A6D6B0F1CAE7D860048C0AE /* ImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6B0E1CAE7D860048C0AE /* ImageViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C01C6FC1CB1811400BB0E6E /* BaseCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCellModel.h; sourceTree = "<group>"; };
+		2C01C6FD1CB1811400BB0E6E /* BaseCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCellModel.m; sourceTree = "<group>"; };
 		9A6D6A541CAE0EFB0048C0AE /* wangyiScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wangyiScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6D6A581CAE0EFB0048C0AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A6D6A5A1CAE0EFB0048C0AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -266,6 +269,8 @@
 		9A6D6AAA1CAE47520048C0AE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2C01C6FC1CB1811400BB0E6E /* BaseCellModel.h */,
+				2C01C6FD1CB1811400BB0E6E /* BaseCellModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -522,6 +527,7 @@
 				9A6D6B021CAE4D660048C0AE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				9A6D6B071CAE56570048C0AE /* SliderViewController.m in Sources */,
 				9A6D6AF81CAE4D660048C0AE /* AJPhotoTapDetectingImageView.m in Sources */,
+				2C01C6FE1CB1811400BB0E6E /* BaseCellModel.m in Sources */,
 				9A6D6AF11CAE4D660048C0AE /* AJPhotoGroupView.m in Sources */,
 				9A6D6AFA1CAE4D660048C0AE /* AJTapDetectingView.m in Sources */,
 				9A6D6B001CAE4D660048C0AE /* MASViewConstraint.m in Sources */,

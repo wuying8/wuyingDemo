@@ -8,7 +8,7 @@
 
 #import "ImageViewCell.h"
 
-#define ImageViewCell_Height 200
+#define ImageViewCell_Height 300
 
 @implementation ImageViewCell
 
@@ -37,12 +37,21 @@
     if (self) {
         // Initialization code
         self.imageBtn = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, ImageViewCell_Height)];
-        self.imageBtn.backgroundColor = [UIColor redColor];
+        self.imageBtn.backgroundColor = [UIColor whiteColor];
+        self.imageBtn.contentMode = UIViewContentModeScaleAspectFill;
+        self.layer.masksToBounds = YES;
         [self.contentView addSubview:self.imageBtn];
         
         
     }
     return self;
+}
+
+-(void)setCurImage:(UIImage *)curImage{
+    
+    _curImage = curImage;
+    
+    self.imageBtn.image = curImage;
 }
 
 
