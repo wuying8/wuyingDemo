@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BaseViewCell.h
 //  wangyiScrollView
 //
 //  Created by macmini on 16/4/1.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewCellProtocol.h"
 
-@interface ViewController : UIViewController
-
+@interface BaseViewCell : UITableViewCell <BaseViewCellProtocol>
 
 @end
-
