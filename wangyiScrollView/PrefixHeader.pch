@@ -12,7 +12,7 @@
 #define SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
-#define WYColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+
 
 //#define SERVER @"http://182.92.241.146/YDSchool/"
 //#define SERVER @"http://120.236.236.176:9999/YDSchool/"
@@ -29,6 +29,9 @@
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
+//获取weak对象
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self
+
 //导航栏按钮标签
 #define LEFT_BTN_TAG 1001
 #define RIGHT_BTN_TAG 1002
@@ -43,4 +46,5 @@
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+#import "UIColorSetting.h"
 #endif

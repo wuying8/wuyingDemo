@@ -8,6 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		2C01C6FE1CB1811400BB0E6E /* BaseCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C01C6FD1CB1811400BB0E6E /* BaseCellModel.m */; };
+		2C01C7011CB1EA8600BB0E6E /* BottomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C01C7001CB1EA8600BB0E6E /* BottomTabBar.m */; };
+		2C01C7041CB1EEDE00BB0E6E /* BottomTabBarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C01C7031CB1EEDE00BB0E6E /* BottomTabBarItemModel.m */; };
+		2C01C7191CB2596700BB0E6E /* CalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C01C7081CB2596700BB0E6E /* CalendarDayCell.m */; };
+		2C01C71A1CB2596700BB0E6E /* CalendarDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C01C70A1CB2596700BB0E6E /* CalendarDayModel.m */; };
+		2C01C71B1CB2596700BB0E6E /* CalendarHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C01C70C1CB2596700BB0E6E /* CalendarHomeViewController.m */; };
+		2C01C71C1CB2596700BB0E6E /* CalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C01C70E1CB2596700BB0E6E /* CalendarLogic.m */; };
+		2C01C71D1CB2596700BB0E6E /* CalendarMonthCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C01C7101CB2596700BB0E6E /* CalendarMonthCollectionViewLayout.m */; };
+		2C01C71E1CB2596700BB0E6E /* CalendarMonthHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C01C7121CB2596700BB0E6E /* CalendarMonthHeaderView.m */; };
+		2C01C71F1CB2596700BB0E6E /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C01C7141CB2596700BB0E6E /* CalendarViewController.m */; };
+		2C01C7201CB2596700BB0E6E /* chack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C01C7151CB2596700BB0E6E /* chack.png */; };
+		2C01C7211CB2596700BB0E6E /* NSDate+WQCalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C01C7181CB2596700BB0E6E /* NSDate+WQCalendarLogic.m */; };
+		2C01C7271CB25B3400BB0E6E /* DateSelectedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C01C7261CB25B3400BB0E6E /* DateSelectedController.m */; };
+		2C01C72E1CB279E100BB0E6E /* PriceChangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C01C72C1CB279E100BB0E6E /* PriceChangeView.m */; };
+		2C01C72F1CB279E100BB0E6E /* PriceChangeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C01C72D1CB279E100BB0E6E /* PriceChangeView.xib */; };
+		2C0719381CB2AFEF00800E5E /* TagsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0719371CB2AFEF00800E5E /* TagsViewCell.m */; };
+		2C07193A1CB2AFFE00800E5E /* TagsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C0719391CB2AFFE00800E5E /* TagsViewCell.xib */; };
+		2C0719401CB2D15400800E5E /* HXTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C07193F1CB2D15400800E5E /* HXTagsView.m */; };
+		2C11BB831CB2D25E00DB49BD /* KOPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C11BB821CB2D25E00DB49BD /* KOPopupView.m */; };
 		9A6D6A591CAE0EFB0048C0AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A581CAE0EFB0048C0AE /* main.m */; };
 		9A6D6A5C1CAE0EFB0048C0AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A5B1CAE0EFB0048C0AE /* AppDelegate.m */; };
 		9A6D6A5F1CAE0EFB0048C0AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A5E1CAE0EFB0048C0AE /* ViewController.m */; };
@@ -68,6 +86,41 @@
 /* Begin PBXFileReference section */
 		2C01C6FC1CB1811400BB0E6E /* BaseCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCellModel.h; sourceTree = "<group>"; };
 		2C01C6FD1CB1811400BB0E6E /* BaseCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCellModel.m; sourceTree = "<group>"; };
+		2C01C6FF1CB1EA8600BB0E6E /* BottomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomTabBar.h; sourceTree = "<group>"; };
+		2C01C7001CB1EA8600BB0E6E /* BottomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomTabBar.m; sourceTree = "<group>"; };
+		2C01C7021CB1EEDE00BB0E6E /* BottomTabBarItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomTabBarItemModel.h; sourceTree = "<group>"; };
+		2C01C7031CB1EEDE00BB0E6E /* BottomTabBarItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomTabBarItemModel.m; sourceTree = "<group>"; };
+		2C01C7051CB24EA600BB0E6E /* UIColorSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIColorSetting.h; sourceTree = "<group>"; };
+		2C01C7071CB2596700BB0E6E /* CalendarDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDayCell.h; sourceTree = "<group>"; };
+		2C01C7081CB2596700BB0E6E /* CalendarDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDayCell.m; sourceTree = "<group>"; };
+		2C01C7091CB2596700BB0E6E /* CalendarDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDayModel.h; sourceTree = "<group>"; };
+		2C01C70A1CB2596700BB0E6E /* CalendarDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDayModel.m; sourceTree = "<group>"; };
+		2C01C70B1CB2596700BB0E6E /* CalendarHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarHomeViewController.h; sourceTree = "<group>"; };
+		2C01C70C1CB2596700BB0E6E /* CalendarHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarHomeViewController.m; sourceTree = "<group>"; };
+		2C01C70D1CB2596700BB0E6E /* CalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarLogic.h; sourceTree = "<group>"; };
+		2C01C70E1CB2596700BB0E6E /* CalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarLogic.m; sourceTree = "<group>"; };
+		2C01C70F1CB2596700BB0E6E /* CalendarMonthCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMonthCollectionViewLayout.h; sourceTree = "<group>"; };
+		2C01C7101CB2596700BB0E6E /* CalendarMonthCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonthCollectionViewLayout.m; sourceTree = "<group>"; };
+		2C01C7111CB2596700BB0E6E /* CalendarMonthHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMonthHeaderView.h; sourceTree = "<group>"; };
+		2C01C7121CB2596700BB0E6E /* CalendarMonthHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonthHeaderView.m; sourceTree = "<group>"; };
+		2C01C7131CB2596700BB0E6E /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		2C01C7141CB2596700BB0E6E /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		2C01C7151CB2596700BB0E6E /* chack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chack.png; sourceTree = "<group>"; };
+		2C01C7161CB2596700BB0E6E /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		2C01C7171CB2596700BB0E6E /* NSDate+WQCalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WQCalendarLogic.h"; sourceTree = "<group>"; };
+		2C01C7181CB2596700BB0E6E /* NSDate+WQCalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WQCalendarLogic.m"; sourceTree = "<group>"; };
+		2C01C7251CB25B3400BB0E6E /* DateSelectedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateSelectedController.h; sourceTree = "<group>"; };
+		2C01C7261CB25B3400BB0E6E /* DateSelectedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateSelectedController.m; sourceTree = "<group>"; };
+		2C01C72B1CB279E100BB0E6E /* PriceChangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriceChangeView.h; sourceTree = "<group>"; };
+		2C01C72C1CB279E100BB0E6E /* PriceChangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriceChangeView.m; sourceTree = "<group>"; };
+		2C01C72D1CB279E100BB0E6E /* PriceChangeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PriceChangeView.xib; sourceTree = "<group>"; };
+		2C0719361CB2AFEF00800E5E /* TagsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsViewCell.h; sourceTree = "<group>"; };
+		2C0719371CB2AFEF00800E5E /* TagsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsViewCell.m; sourceTree = "<group>"; };
+		2C0719391CB2AFFE00800E5E /* TagsViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagsViewCell.xib; sourceTree = "<group>"; };
+		2C07193E1CB2D15400800E5E /* HXTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTagsView.h; sourceTree = "<group>"; };
+		2C07193F1CB2D15400800E5E /* HXTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTagsView.m; sourceTree = "<group>"; };
+		2C11BB811CB2D25E00DB49BD /* KOPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOPopupView.h; sourceTree = "<group>"; };
+		2C11BB821CB2D25E00DB49BD /* KOPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOPopupView.m; sourceTree = "<group>"; };
 		9A6D6A541CAE0EFB0048C0AE /* wangyiScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wangyiScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6D6A581CAE0EFB0048C0AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A6D6A5A1CAE0EFB0048C0AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -175,6 +228,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C01C7061CB2596700BB0E6E /* ZFCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				2C01C7071CB2596700BB0E6E /* CalendarDayCell.h */,
+				2C01C7081CB2596700BB0E6E /* CalendarDayCell.m */,
+				2C01C7091CB2596700BB0E6E /* CalendarDayModel.h */,
+				2C01C70A1CB2596700BB0E6E /* CalendarDayModel.m */,
+				2C01C70B1CB2596700BB0E6E /* CalendarHomeViewController.h */,
+				2C01C70C1CB2596700BB0E6E /* CalendarHomeViewController.m */,
+				2C01C70D1CB2596700BB0E6E /* CalendarLogic.h */,
+				2C01C70E1CB2596700BB0E6E /* CalendarLogic.m */,
+				2C01C70F1CB2596700BB0E6E /* CalendarMonthCollectionViewLayout.h */,
+				2C01C7101CB2596700BB0E6E /* CalendarMonthCollectionViewLayout.m */,
+				2C01C7111CB2596700BB0E6E /* CalendarMonthHeaderView.h */,
+				2C01C7121CB2596700BB0E6E /* CalendarMonthHeaderView.m */,
+				2C01C7131CB2596700BB0E6E /* CalendarViewController.h */,
+				2C01C7141CB2596700BB0E6E /* CalendarViewController.m */,
+				2C01C7151CB2596700BB0E6E /* chack.png */,
+				2C01C7161CB2596700BB0E6E /* Color.h */,
+				2C01C7171CB2596700BB0E6E /* NSDate+WQCalendarLogic.h */,
+				2C01C7181CB2596700BB0E6E /* NSDate+WQCalendarLogic.m */,
+			);
+			path = ZFCalendar;
+			sourceTree = "<group>";
+		};
+		2C11BB801CB2D25E00DB49BD /* KOPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				2C11BB811CB2D25E00DB49BD /* KOPopupView.h */,
+				2C11BB821CB2D25E00DB49BD /* KOPopupView.m */,
+			);
+			path = KOPopupView;
+			sourceTree = "<group>";
+		};
 		9A6D6A4B1CAE0EFB0048C0AE = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +309,7 @@
 			children = (
 				9A6D6A581CAE0EFB0048C0AE /* main.m */,
 				9A6D6A951CAE10D10048C0AE /* PrefixHeader.pch */,
+				2C01C7051CB24EA600BB0E6E /* UIColorSetting.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -262,6 +350,8 @@
 				9A6D6B041CAE56570048C0AE /* SliderViewController.h */,
 				9A6D6B051CAE56570048C0AE /* SliderViewController.m */,
 				9A6D6B061CAE56570048C0AE /* SliderViewController.xib */,
+				2C01C7251CB25B3400BB0E6E /* DateSelectedController.h */,
+				2C01C7261CB25B3400BB0E6E /* DateSelectedController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -278,6 +368,11 @@
 		9A6D6AAB1CAE47520048C0AE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2C07193E1CB2D15400800E5E /* HXTagsView.h */,
+				2C07193F1CB2D15400800E5E /* HXTagsView.m */,
+				2C01C72B1CB279E100BB0E6E /* PriceChangeView.h */,
+				2C01C72C1CB279E100BB0E6E /* PriceChangeView.m */,
+				2C01C72D1CB279E100BB0E6E /* PriceChangeView.xib */,
 				9A6D6AAD1CAE480C0048C0AE /* NormalTextCell.h */,
 				9A6D6AAE1CAE480C0048C0AE /* NormalTextCell.m */,
 				9A6D6AAF1CAE480C0048C0AE /* NormalTextCell.xib */,
@@ -286,6 +381,13 @@
 				9A6D6B0C1CAE75580048C0AE /* BaseViewCellProtocol.h */,
 				9A6D6B0D1CAE7D860048C0AE /* ImageViewCell.h */,
 				9A6D6B0E1CAE7D860048C0AE /* ImageViewCell.m */,
+				2C01C6FF1CB1EA8600BB0E6E /* BottomTabBar.h */,
+				2C01C7001CB1EA8600BB0E6E /* BottomTabBar.m */,
+				2C01C7021CB1EEDE00BB0E6E /* BottomTabBarItemModel.h */,
+				2C01C7031CB1EEDE00BB0E6E /* BottomTabBarItemModel.m */,
+				2C0719361CB2AFEF00800E5E /* TagsViewCell.h */,
+				2C0719371CB2AFEF00800E5E /* TagsViewCell.m */,
+				2C0719391CB2AFFE00800E5E /* TagsViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -293,6 +395,8 @@
 		9A6D6ABC1CAE4D660048C0AE /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				2C11BB801CB2D25E00DB49BD /* KOPopupView */,
+				2C01C7061CB2596700BB0E6E /* ZFCalendar */,
 				9A6D6ABD1CAE4D660048C0AE /* AJPhotoPicker */,
 			);
 			path = Lib;
@@ -478,9 +582,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C01C72F1CB279E100BB0E6E /* PriceChangeView.xib in Resources */,
 				9A6D6AA51CAE45CB0048C0AE /* Main.storyboard in Resources */,
 				9A6D6AB11CAE480C0048C0AE /* NormalTextCell.xib in Resources */,
 				9A6D6A671CAE0EFB0048C0AE /* LaunchScreen.storyboard in Resources */,
+				2C07193A1CB2AFFE00800E5E /* TagsViewCell.xib in Resources */,
+				2C01C7201CB2596700BB0E6E /* chack.png in Resources */,
 				9A6D6AF61CAE4D660048C0AE /* BoPhotoPicker.bundle in Resources */,
 				9A6D6A641CAE0EFB0048C0AE /* Assets.xcassets in Resources */,
 				9A6D6B081CAE56570048C0AE /* SliderViewController.xib in Resources */,
@@ -512,31 +619,46 @@
 				9A6D6AF71CAE4D660048C0AE /* AJPhotoBrowserViewController.m in Sources */,
 				9A6D6AF31CAE4D660048C0AE /* AJPhotoListCellTapView.m in Sources */,
 				9A6D6A5F1CAE0EFB0048C0AE /* ViewController.m in Sources */,
+				2C01C7271CB25B3400BB0E6E /* DateSelectedController.m in Sources */,
 				9A6D6AF41CAE4D660048C0AE /* AJPhotoListView.m in Sources */,
 				9A6D6AFC1CAE4D660048C0AE /* MASConstraint.m in Sources */,
 				9A6D6AFF1CAE4D660048C0AE /* MASViewAttribute.m in Sources */,
 				9A6D6AAC1CAE47520048C0AE /* FirstViewController.m in Sources */,
+				2C0719381CB2AFEF00800E5E /* TagsViewCell.m in Sources */,
 				9A6D6AFB1CAE4D660048C0AE /* MASCompositeConstraint.m in Sources */,
 				9A6D6B031CAE4D660048C0AE /* View+MASAdditions.m in Sources */,
+				2C01C7011CB1EA8600BB0E6E /* BottomTabBar.m in Sources */,
+				2C0719401CB2D15400800E5E /* HXTagsView.m in Sources */,
 				9A6D6AF91CAE4D660048C0AE /* AJPhotoZoomingScrollView.m in Sources */,
 				9A6D6AF51CAE4D660048C0AE /* AJPhotoPickerViewController.m in Sources */,
 				9A6D6B0F1CAE7D860048C0AE /* ImageViewCell.m in Sources */,
 				9A6D6AF01CAE4D660048C0AE /* AJPhotoGroupCell.m in Sources */,
 				9A6D6A5C1CAE0EFB0048C0AE /* AppDelegate.m in Sources */,
+				2C01C7211CB2596700BB0E6E /* NSDate+WQCalendarLogic.m in Sources */,
+				2C01C71A1CB2596700BB0E6E /* CalendarDayModel.m in Sources */,
+				2C01C71B1CB2596700BB0E6E /* CalendarHomeViewController.m in Sources */,
 				9A6D6B011CAE4D660048C0AE /* NSArray+MASAdditions.m in Sources */,
 				9A6D6B021CAE4D660048C0AE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				2C01C72E1CB279E100BB0E6E /* PriceChangeView.m in Sources */,
+				2C01C7191CB2596700BB0E6E /* CalendarDayCell.m in Sources */,
+				2C01C71D1CB2596700BB0E6E /* CalendarMonthCollectionViewLayout.m in Sources */,
+				2C01C71E1CB2596700BB0E6E /* CalendarMonthHeaderView.m in Sources */,
 				9A6D6B071CAE56570048C0AE /* SliderViewController.m in Sources */,
+				2C01C71C1CB2596700BB0E6E /* CalendarLogic.m in Sources */,
 				9A6D6AF81CAE4D660048C0AE /* AJPhotoTapDetectingImageView.m in Sources */,
 				2C01C6FE1CB1811400BB0E6E /* BaseCellModel.m in Sources */,
 				9A6D6AF11CAE4D660048C0AE /* AJPhotoGroupView.m in Sources */,
+				2C01C71F1CB2596700BB0E6E /* CalendarViewController.m in Sources */,
 				9A6D6AFA1CAE4D660048C0AE /* AJTapDetectingView.m in Sources */,
 				9A6D6B001CAE4D660048C0AE /* MASViewConstraint.m in Sources */,
 				9A6D6AFD1CAE4D660048C0AE /* MASConstraintMaker.m in Sources */,
 				9A6D6AB01CAE480C0048C0AE /* NormalTextCell.m in Sources */,
 				9A6D6A591CAE0EFB0048C0AE /* main.m in Sources */,
+				2C11BB831CB2D25E00DB49BD /* KOPopupView.m in Sources */,
 				9A6D6AF21CAE4D660048C0AE /* AJPhotoListCell.m in Sources */,
 				9A6D6AFE1CAE4D660048C0AE /* MASLayoutConstraint.m in Sources */,
 				9A6D6A8E1CAE0FE40048C0AE /* TopScrollView.m in Sources */,
+				2C01C7041CB1EEDE00BB0E6E /* BottomTabBarItemModel.m in Sources */,
 				9A6D6A981CAE12080048C0AE /* ButtomScrollView.m in Sources */,
 				9A6D6AEF1CAE4D660048C0AE /* AJGradientView.m in Sources */,
 			);
@@ -681,6 +803,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = wangyiScrollView/PrefixHeader.pch;
 				INFOPLIST_FILE = wangyiScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hello.wangyiScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -693,6 +816,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = wangyiScrollView/PrefixHeader.pch;
 				INFOPLIST_FILE = wangyiScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hello.wangyiScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";

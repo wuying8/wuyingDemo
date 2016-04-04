@@ -10,14 +10,15 @@
 
 @implementation BaseCellModel
 
-+ (instancetype)createModelWithTitle:(NSString *)title
-                             Content:(NSString *)content {
++ (instancetype)createModelWithTitle:(NSString*)title Content:(NSString*)content Type:(BaseCellType)type
+{
 
-  BaseCellModel *model = [[BaseCellModel alloc] init];
-  model.title = title;
-  model.content = content;
+    BaseCellModel* model = [[BaseCellModel alloc] init];
+    model.title = title;
+    model.content = content;
+    model.type = type;
 
-  return model;
+    return model;
 }
 
 @end

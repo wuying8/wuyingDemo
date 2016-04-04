@@ -8,7 +8,7 @@
 
 #import "ImageViewCell.h"
 
-#define ImageViewCell_Height 300
+#define ImageViewCell_Height 250
 
 @implementation ImageViewCell
 

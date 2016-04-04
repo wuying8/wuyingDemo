@@ -9,12 +9,17 @@
 #import <UIKit/UIKit.h>
 #import "BaseViewCell.h"
 #import "BaseCellModel.h"
+#import "HXTagsView.h"
 
 @interface NormalTextCell : BaseViewCell
 
-@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+//@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (nonatomic ,strong) UILabel *titleLabel;
 
-@property (weak, nonatomic) IBOutlet UILabel *contentLabel;
+//@property (weak, nonatomic) IBOutlet UILabel *contentLabel;
+@property (nonatomic ,strong) UILabel *contentLabel;
+
+@property (nonatomic ,strong) HXTagsView *tagsView;
 
 @property (nonatomic ,strong) BaseCellModel *model;
 
