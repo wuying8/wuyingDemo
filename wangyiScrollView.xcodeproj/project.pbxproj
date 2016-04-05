@@ -35,15 +35,6 @@
 		2C526E0B1CB417B500652FC8 /* ChildBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E061CB417B500652FC8 /* ChildBaseViewController.m */; };
 		2C526E0C1CB417B500652FC8 /* FirstTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E081CB417B500652FC8 /* FirstTableView.m */; };
 		2C526E0D1CB417B500652FC8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E0A1CB417B500652FC8 /* SecondViewController.m */; };
-		2C526E231CB41BD500652FC8 /* CalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E121CB41BD500652FC8 /* CalendarDayCell.m */; };
-		2C526E241CB41BD500652FC8 /* CalendarDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E141CB41BD500652FC8 /* CalendarDayModel.m */; };
-		2C526E251CB41BD500652FC8 /* CalendarHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E161CB41BD500652FC8 /* CalendarHomeViewController.m */; };
-		2C526E261CB41BD500652FC8 /* CalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E181CB41BD500652FC8 /* CalendarLogic.m */; };
-		2C526E271CB41BD500652FC8 /* CalendarMonthCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E1A1CB41BD500652FC8 /* CalendarMonthCollectionViewLayout.m */; };
-		2C526E281CB41BD500652FC8 /* CalendarMonthHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E1C1CB41BD500652FC8 /* CalendarMonthHeaderView.m */; };
-		2C526E291CB41BD500652FC8 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E1E1CB41BD500652FC8 /* CalendarViewController.m */; };
-		2C526E2A1CB41BD500652FC8 /* chack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C526E1F1CB41BD500652FC8 /* chack.png */; };
-		2C526E2B1CB41BD500652FC8 /* NSDate+WQCalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E221CB41BD500652FC8 /* NSDate+WQCalendarLogic.m */; };
 		2C526E2F1CB41C4C00652FC8 /* KOPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E2E1CB41C4C00652FC8 /* KOPopupView.m */; };
 		9A6D6A591CAE0EFB0048C0AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A581CAE0EFB0048C0AE /* main.m */; };
 		9A6D6A5C1CAE0EFB0048C0AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A5B1CAE0EFB0048C0AE /* AppDelegate.m */; };
@@ -151,24 +142,6 @@
 		2C526E081CB417B500652FC8 /* FirstTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableView.m; sourceTree = "<group>"; };
 		2C526E091CB417B500652FC8 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		2C526E0A1CB417B500652FC8 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		2C526E111CB41BD500652FC8 /* CalendarDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarDayCell.h; path = ZFCalendar/CalendarDayCell.h; sourceTree = "<group>"; };
-		2C526E121CB41BD500652FC8 /* CalendarDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarDayCell.m; path = ZFCalendar/CalendarDayCell.m; sourceTree = "<group>"; };
-		2C526E131CB41BD500652FC8 /* CalendarDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarDayModel.h; path = ZFCalendar/CalendarDayModel.h; sourceTree = "<group>"; };
-		2C526E141CB41BD500652FC8 /* CalendarDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarDayModel.m; path = ZFCalendar/CalendarDayModel.m; sourceTree = "<group>"; };
-		2C526E151CB41BD500652FC8 /* CalendarHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarHomeViewController.h; path = ZFCalendar/CalendarHomeViewController.h; sourceTree = "<group>"; };
-		2C526E161CB41BD500652FC8 /* CalendarHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarHomeViewController.m; path = ZFCalendar/CalendarHomeViewController.m; sourceTree = "<group>"; };
-		2C526E171CB41BD500652FC8 /* CalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarLogic.h; path = ZFCalendar/CalendarLogic.h; sourceTree = "<group>"; };
-		2C526E181CB41BD500652FC8 /* CalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarLogic.m; path = ZFCalendar/CalendarLogic.m; sourceTree = "<group>"; };
-		2C526E191CB41BD500652FC8 /* CalendarMonthCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarMonthCollectionViewLayout.h; path = ZFCalendar/CalendarMonthCollectionViewLayout.h; sourceTree = "<group>"; };
-		2C526E1A1CB41BD500652FC8 /* CalendarMonthCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarMonthCollectionViewLayout.m; path = ZFCalendar/CalendarMonthCollectionViewLayout.m; sourceTree = "<group>"; };
-		2C526E1B1CB41BD500652FC8 /* CalendarMonthHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarMonthHeaderView.h; path = ZFCalendar/CalendarMonthHeaderView.h; sourceTree = "<group>"; };
-		2C526E1C1CB41BD500652FC8 /* CalendarMonthHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarMonthHeaderView.m; path = ZFCalendar/CalendarMonthHeaderView.m; sourceTree = "<group>"; };
-		2C526E1D1CB41BD500652FC8 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarViewController.h; path = ZFCalendar/CalendarViewController.h; sourceTree = "<group>"; };
-		2C526E1E1CB41BD500652FC8 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarViewController.m; path = ZFCalendar/CalendarViewController.m; sourceTree = "<group>"; };
-		2C526E1F1CB41BD500652FC8 /* chack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chack.png; path = ZFCalendar/chack.png; sourceTree = "<group>"; };
-		2C526E201CB41BD500652FC8 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Color.h; path = ZFCalendar/Color.h; sourceTree = "<group>"; };
-		2C526E211CB41BD500652FC8 /* NSDate+WQCalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+WQCalendarLogic.h"; path = "ZFCalendar/NSDate+WQCalendarLogic.h"; sourceTree = "<group>"; };
-		2C526E221CB41BD500652FC8 /* NSDate+WQCalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+WQCalendarLogic.m"; path = "ZFCalendar/NSDate+WQCalendarLogic.m"; sourceTree = "<group>"; };
 		2C526E2D1CB41C4C00652FC8 /* KOPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOPopupView.h; sourceTree = "<group>"; };
 		2C526E2E1CB41C4C00652FC8 /* KOPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOPopupView.m; sourceTree = "<group>"; };
 		9A6D6A541CAE0EFB0048C0AE /* wangyiScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wangyiScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -339,6 +312,13 @@
 			path = KOPopupView;
 			sourceTree = "<group>";
 		};
+		2C526E301CB41C8800652FC8 /* ZFCalendar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZFCalendar;
+			sourceTree = "<group>";
+		};
 		9A6D6A4B1CAE0EFB0048C0AE = {
 			isa = PBXGroup;
 			children = (
@@ -466,25 +446,8 @@
 		9A6D6ABC1CAE4D660048C0AE /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				2C526E301CB41C8800652FC8 /* ZFCalendar */,
 				2C526E2C1CB41C1C00652FC8 /* KOPopupView */,
-				2C526E111CB41BD500652FC8 /* CalendarDayCell.h */,
-				2C526E121CB41BD500652FC8 /* CalendarDayCell.m */,
-				2C526E131CB41BD500652FC8 /* CalendarDayModel.h */,
-				2C526E141CB41BD500652FC8 /* CalendarDayModel.m */,
-				2C526E151CB41BD500652FC8 /* CalendarHomeViewController.h */,
-				2C526E161CB41BD500652FC8 /* CalendarHomeViewController.m */,
-				2C526E171CB41BD500652FC8 /* CalendarLogic.h */,
-				2C526E181CB41BD500652FC8 /* CalendarLogic.m */,
-				2C526E191CB41BD500652FC8 /* CalendarMonthCollectionViewLayout.h */,
-				2C526E1A1CB41BD500652FC8 /* CalendarMonthCollectionViewLayout.m */,
-				2C526E1B1CB41BD500652FC8 /* CalendarMonthHeaderView.h */,
-				2C526E1C1CB41BD500652FC8 /* CalendarMonthHeaderView.m */,
-				2C526E1D1CB41BD500652FC8 /* CalendarViewController.h */,
-				2C526E1E1CB41BD500652FC8 /* CalendarViewController.m */,
-				2C526E1F1CB41BD500652FC8 /* chack.png */,
-				2C526E201CB41BD500652FC8 /* Color.h */,
-				2C526E211CB41BD500652FC8 /* NSDate+WQCalendarLogic.h */,
-				2C526E221CB41BD500652FC8 /* NSDate+WQCalendarLogic.m */,
 				2C1A443F1CB3CA530076518C /* NinaPagerView */,
 				9A6D6ABD1CAE4D660048C0AE /* AJPhotoPicker */,
 			);
@@ -677,7 +640,6 @@
 				2C1A44761CB3CC130076518C /* TagsViewCell.xib in Resources */,
 				9A6D6A671CAE0EFB0048C0AE /* LaunchScreen.storyboard in Resources */,
 				9A6D6AF61CAE4D660048C0AE /* BoPhotoPicker.bundle in Resources */,
-				2C526E2A1CB41BD500652FC8 /* chack.png in Resources */,
 				2C1A44721CB3CC130076518C /* ImageViewCell.xib in Resources */,
 				2C1A447A1CB3CC130076518C /* DaySliderView.xib in Resources */,
 				9A6D6A641CAE0EFB0048C0AE /* Assets.xcassets in Resources */,
@@ -711,7 +673,6 @@
 				9A6D6AF31CAE4D660048C0AE /* AJPhotoListCellTapView.m in Sources */,
 				9A6D6A5F1CAE0EFB0048C0AE /* ViewController.m in Sources */,
 				2C1A44771CB3CC130076518C /* BottomTabBar.m in Sources */,
-				2C526E241CB41BD500652FC8 /* CalendarDayModel.m in Sources */,
 				2C01C7271CB25B3400BB0E6E /* DateSelectedController.m in Sources */,
 				2C526E0D1CB417B500652FC8 /* SecondViewController.m in Sources */,
 				9A6D6AF41CAE4D660048C0AE /* AJPhotoListView.m in Sources */,
@@ -721,7 +682,6 @@
 				2C1A44731CB3CC130076518C /* NormalTextCell.m in Sources */,
 				2C1A44791CB3CC130076518C /* DaySliderView.m in Sources */,
 				9A6D6AAC1CAE47520048C0AE /* FirstViewController.m in Sources */,
-				2C526E291CB41BD500652FC8 /* CalendarViewController.m in Sources */,
 				2C1A441D1CB34ED20076518C /* TextCellModel.m in Sources */,
 				2C1A44491CB3CA530076518C /* TopTabView.m in Sources */,
 				2C526E0B1CB417B500652FC8 /* ChildBaseViewController.m in Sources */,
@@ -730,12 +690,10 @@
 				2C1A44701CB3CC130076518C /* BaseViewCell.m in Sources */,
 				2C1A447B1CB3CC130076518C /* HXTagsView.m in Sources */,
 				9A6D6AF91CAE4D660048C0AE /* AJPhotoZoomingScrollView.m in Sources */,
-				2C526E281CB41BD500652FC8 /* CalendarMonthHeaderView.m in Sources */,
 				9A6D6AF51CAE4D660048C0AE /* AJPhotoPickerViewController.m in Sources */,
 				9A6D6AF01CAE4D660048C0AE /* AJPhotoGroupCell.m in Sources */,
 				9A6D6A5C1CAE0EFB0048C0AE /* AppDelegate.m in Sources */,
 				9A6D6B011CAE4D660048C0AE /* NSArray+MASAdditions.m in Sources */,
-				2C526E251CB41BD500652FC8 /* CalendarHomeViewController.m in Sources */,
 				9A6D6B021CAE4D660048C0AE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				2C1A44711CB3CC130076518C /* ImageViewCell.m in Sources */,
 				9A6D6AF81CAE4D660048C0AE /* AJPhotoTapDetectingImageView.m in Sources */,
@@ -743,22 +701,18 @@
 				2C1A44271CB37CBD0076518C /* CameraTools.m in Sources */,
 				2C01C6FE1CB1811400BB0E6E /* BaseCellModel.m in Sources */,
 				9A6D6AF11CAE4D660048C0AE /* AJPhotoGroupView.m in Sources */,
-				2C526E261CB41BD500652FC8 /* CalendarLogic.m in Sources */,
 				2C1A44471CB3CA530076518C /* NinaBaseView.m in Sources */,
-				2C526E231CB41BD500652FC8 /* CalendarDayCell.m in Sources */,
 				9A6D6AFA1CAE4D660048C0AE /* AJTapDetectingView.m in Sources */,
 				9A6D6B001CAE4D660048C0AE /* MASViewConstraint.m in Sources */,
 				2C1A443B1CB3BEEC0076518C /* TravelLineModel.m in Sources */,
 				2C1A444D1CB3CAE80076518C /* TravelLineViewController.m in Sources */,
 				9A6D6AFD1CAE4D660048C0AE /* MASConstraintMaker.m in Sources */,
 				2C1A447C1CB3CC130076518C /* TextInputView.m in Sources */,
-				2C526E271CB41BD500652FC8 /* CalendarMonthCollectionViewLayout.m in Sources */,
 				2C1A44781CB3CC130076518C /* BottomTabBarItemModel.m in Sources */,
 				9A6D6A591CAE0EFB0048C0AE /* main.m in Sources */,
 				9A6D6AF21CAE4D660048C0AE /* AJPhotoListCell.m in Sources */,
 				9A6D6AFE1CAE4D660048C0AE /* MASLayoutConstraint.m in Sources */,
 				2C526E0C1CB417B500652FC8 /* FirstTableView.m in Sources */,
-				2C526E2B1CB41BD500652FC8 /* NSDate+WQCalendarLogic.m in Sources */,
 				9A6D6A8E1CAE0FE40048C0AE /* TopScrollView.m in Sources */,
 				2C526E2F1CB41C4C00652FC8 /* KOPopupView.m in Sources */,
 				9A6D6A981CAE12080048C0AE /* ButtomScrollView.m in Sources */,
