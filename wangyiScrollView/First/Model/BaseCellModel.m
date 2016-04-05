@@ -16,7 +16,8 @@
     BaseCellModel* model = [[BaseCellModel alloc] init];
     model.title = title;
     model.content = content;
-    model.type = type;
+    model.curContent = @"";
+    model.celltype = type;
 
     return model;
 }

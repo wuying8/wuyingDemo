@@ -25,11 +25,14 @@ typedef NS_ENUM(NSInteger, BtnGroupType) {
 
 @property (nonatomic ,strong) NSString *content;
 
+@property (nonatomic ,strong) NSString *curContent;
+
 @property (nonatomic ,strong) NSArray *arrayBtns;
 
-@property (nonatomic ,assign) BaseCellType type;
+@property (nonatomic ,assign) BaseCellType celltype;
 
 @property (nonatomic ,assign) BtnGroupType groupType;
+
 
 +(instancetype) createModelWithTitle:(NSString *)title Content:(NSString *)content Type:(BaseCellType)type;
 
