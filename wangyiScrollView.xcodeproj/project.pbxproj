@@ -35,7 +35,6 @@
 		2C526E0B1CB417B500652FC8 /* ChildBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E061CB417B500652FC8 /* ChildBaseViewController.m */; };
 		2C526E0C1CB417B500652FC8 /* FirstTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E081CB417B500652FC8 /* FirstTableView.m */; };
 		2C526E0D1CB417B500652FC8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E0A1CB417B500652FC8 /* SecondViewController.m */; };
-		2C526E101CB41BA900652FC8 /* KOPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E0F1CB41BA900652FC8 /* KOPopupView.m */; };
 		2C526E231CB41BD500652FC8 /* CalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E121CB41BD500652FC8 /* CalendarDayCell.m */; };
 		2C526E241CB41BD500652FC8 /* CalendarDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E141CB41BD500652FC8 /* CalendarDayModel.m */; };
 		2C526E251CB41BD500652FC8 /* CalendarHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E161CB41BD500652FC8 /* CalendarHomeViewController.m */; };
@@ -151,8 +150,6 @@
 		2C526E081CB417B500652FC8 /* FirstTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableView.m; sourceTree = "<group>"; };
 		2C526E091CB417B500652FC8 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		2C526E0A1CB417B500652FC8 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		2C526E0E1CB41BA900652FC8 /* KOPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KOPopupView.h; path = KOPopupView/KOPopupView.h; sourceTree = "<group>"; };
-		2C526E0F1CB41BA900652FC8 /* KOPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KOPopupView.m; path = KOPopupView/KOPopupView.m; sourceTree = "<group>"; };
 		2C526E111CB41BD500652FC8 /* CalendarDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarDayCell.h; path = ZFCalendar/CalendarDayCell.h; sourceTree = "<group>"; };
 		2C526E121CB41BD500652FC8 /* CalendarDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarDayCell.m; path = ZFCalendar/CalendarDayCell.m; sourceTree = "<group>"; };
 		2C526E131CB41BD500652FC8 /* CalendarDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarDayModel.h; path = ZFCalendar/CalendarDayModel.h; sourceTree = "<group>"; };
@@ -330,6 +327,13 @@
 			path = UIView;
 			sourceTree = "<group>";
 		};
+		2C526E2C1CB41C1C00652FC8 /* KOPopupView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KOPopupView;
+			sourceTree = "<group>";
+		};
 		9A6D6A4B1CAE0EFB0048C0AE = {
 			isa = PBXGroup;
 			children = (
@@ -457,6 +461,7 @@
 		9A6D6ABC1CAE4D660048C0AE /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				2C526E2C1CB41C1C00652FC8 /* KOPopupView */,
 				2C526E111CB41BD500652FC8 /* CalendarDayCell.h */,
 				2C526E121CB41BD500652FC8 /* CalendarDayCell.m */,
 				2C526E131CB41BD500652FC8 /* CalendarDayModel.h */,
@@ -475,8 +480,6 @@
 				2C526E201CB41BD500652FC8 /* Color.h */,
 				2C526E211CB41BD500652FC8 /* NSDate+WQCalendarLogic.h */,
 				2C526E221CB41BD500652FC8 /* NSDate+WQCalendarLogic.m */,
-				2C526E0E1CB41BA900652FC8 /* KOPopupView.h */,
-				2C526E0F1CB41BA900652FC8 /* KOPopupView.m */,
 				2C1A443F1CB3CA530076518C /* NinaPagerView */,
 				9A6D6ABD1CAE4D660048C0AE /* AJPhotoPicker */,
 			);
@@ -753,7 +756,6 @@
 				2C526E2B1CB41BD500652FC8 /* NSDate+WQCalendarLogic.m in Sources */,
 				9A6D6A8E1CAE0FE40048C0AE /* TopScrollView.m in Sources */,
 				9A6D6A981CAE12080048C0AE /* ButtomScrollView.m in Sources */,
-				2C526E101CB41BA900652FC8 /* KOPopupView.m in Sources */,
 				9A6D6AEF1CAE4D660048C0AE /* AJGradientView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
