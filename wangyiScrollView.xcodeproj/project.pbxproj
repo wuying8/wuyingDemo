@@ -44,6 +44,7 @@
 		2C526E291CB41BD500652FC8 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E1E1CB41BD500652FC8 /* CalendarViewController.m */; };
 		2C526E2A1CB41BD500652FC8 /* chack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C526E1F1CB41BD500652FC8 /* chack.png */; };
 		2C526E2B1CB41BD500652FC8 /* NSDate+WQCalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E221CB41BD500652FC8 /* NSDate+WQCalendarLogic.m */; };
+		2C526E2F1CB41C4C00652FC8 /* KOPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E2E1CB41C4C00652FC8 /* KOPopupView.m */; };
 		9A6D6A591CAE0EFB0048C0AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A581CAE0EFB0048C0AE /* main.m */; };
 		9A6D6A5C1CAE0EFB0048C0AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A5B1CAE0EFB0048C0AE /* AppDelegate.m */; };
 		9A6D6A5F1CAE0EFB0048C0AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A5E1CAE0EFB0048C0AE /* ViewController.m */; };
@@ -168,6 +169,8 @@
 		2C526E201CB41BD500652FC8 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Color.h; path = ZFCalendar/Color.h; sourceTree = "<group>"; };
 		2C526E211CB41BD500652FC8 /* NSDate+WQCalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+WQCalendarLogic.h"; path = "ZFCalendar/NSDate+WQCalendarLogic.h"; sourceTree = "<group>"; };
 		2C526E221CB41BD500652FC8 /* NSDate+WQCalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+WQCalendarLogic.m"; path = "ZFCalendar/NSDate+WQCalendarLogic.m"; sourceTree = "<group>"; };
+		2C526E2D1CB41C4C00652FC8 /* KOPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOPopupView.h; sourceTree = "<group>"; };
+		2C526E2E1CB41C4C00652FC8 /* KOPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOPopupView.m; sourceTree = "<group>"; };
 		9A6D6A541CAE0EFB0048C0AE /* wangyiScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wangyiScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6D6A581CAE0EFB0048C0AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A6D6A5A1CAE0EFB0048C0AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -330,6 +333,8 @@
 		2C526E2C1CB41C1C00652FC8 /* KOPopupView */ = {
 			isa = PBXGroup;
 			children = (
+				2C526E2D1CB41C4C00652FC8 /* KOPopupView.h */,
+				2C526E2E1CB41C4C00652FC8 /* KOPopupView.m */,
 			);
 			path = KOPopupView;
 			sourceTree = "<group>";
@@ -755,6 +760,7 @@
 				2C526E0C1CB417B500652FC8 /* FirstTableView.m in Sources */,
 				2C526E2B1CB41BD500652FC8 /* NSDate+WQCalendarLogic.m in Sources */,
 				9A6D6A8E1CAE0FE40048C0AE /* TopScrollView.m in Sources */,
+				2C526E2F1CB41C4C00652FC8 /* KOPopupView.m in Sources */,
 				9A6D6A981CAE12080048C0AE /* ButtomScrollView.m in Sources */,
 				9A6D6AEF1CAE4D660048C0AE /* AJGradientView.m in Sources */,
 			);
