@@ -1,13 +1,13 @@
 //
-//  TravelLineModel.m
+//  TravelDayModel.m
 //  wangyiScrollView
 //
 //  Created by 无影 on 16/4/6.
 //  Copyright © 2016年 macmini. All rights reserved.
 //
 
-#import "TravelLineModel.h"
+#import "TravelDayModel.h"
 
-@implementation TravelLineModel
+@implementation TravelDayModel
 
 @end

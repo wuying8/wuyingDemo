@@ -1,5 +1,5 @@
 //
-//  TravelLineModel.h
+//  NSString+NumToString.h
 //  wangyiScrollView
 //
 //  Created by 无影 on 16/4/6.
@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TravelLineModel : NSObject
+@interface NSString (NumToString)
+
++(NSString *)translation:(NSString *)arebic;
 
 @end

@@ -9,22 +9,28 @@
 /* Begin PBXBuildFile section */
 		2C01C6FE1CB1811400BB0E6E /* BaseCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C01C6FD1CB1811400BB0E6E /* BaseCellModel.m */; };
 		2C01C7271CB25B3400BB0E6E /* DateSelectedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C01C7261CB25B3400BB0E6E /* DateSelectedController.m */; };
+		2C0498E51CB49DFB00431E6F /* NSString+NumToString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0498E41CB49DFB00431E6F /* NSString+NumToString.m */; };
+		2C0498E81CB4A29800431E6F /* TravelDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0498E71CB4A29800431E6F /* TravelDayModel.m */; };
+		2C0498EB1CB4A61400431E6F /* TravelDayPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0498EA1CB4A61400431E6F /* TravelDayPagerView.m */; };
+		2C0498EE1CB4AFB600431E6F /* TLiManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0498ED1CB4AFB600431E6F /* TLiManagerController.m */; };
+		2C0498F11CB4B5A700431E6F /* TLDayLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0498F01CB4B5A700431E6F /* TLDayLineModel.m */; };
+		2C0498F61CB4C2CE00431E6F /* TravelLineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C0498F51CB4C2CE00431E6F /* TravelLineCell.xib */; };
+		2C0498FC1CB4DC1A00431E6F /* TravelLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0498FB1CB4DC1A00431E6F /* TravelLineModel.m */; };
+		2C0498FF1CB4ED1F00431E6F /* TravelLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0498FE1CB4ED1F00431E6F /* TravelLineCell.m */; };
 		2C1A441D1CB34ED20076518C /* TextCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A441C1CB34ED20076518C /* TextCellModel.m */; };
 		2C1A44231CB364D60076518C /* ImageCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A44221CB364D60076518C /* ImageCellModel.m */; };
 		2C1A44271CB37CBD0076518C /* CameraTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A44261CB37CBD0076518C /* CameraTools.m */; };
 		2C1A44301CB3982C0076518C /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A442F1CB3982C0076518C /* UIColor+Hex.m */; };
-		2C1A443B1CB3BEEC0076518C /* TravelLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A443A1CB3BEEC0076518C /* TravelLineModel.m */; };
+		2C1A443B1CB3BEEC0076518C /* TravelLineTotalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A443A1CB3BEEC0076518C /* TravelLineTotalModel.m */; };
 		2C1A44471CB3CA530076518C /* NinaBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A44411CB3CA530076518C /* NinaBaseView.m */; };
 		2C1A44481CB3CA530076518C /* NinaPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A44431CB3CA530076518C /* NinaPagerView.m */; };
 		2C1A44491CB3CA530076518C /* TopTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A44451CB3CA530076518C /* TopTabView.m */; };
-		2C1A444D1CB3CAE80076518C /* TravelLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A444B1CB3CAE80076518C /* TravelLineViewController.m */; };
+		2C1A444D1CB3CAE80076518C /* TLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A444B1CB3CAE80076518C /* TLViewController.m */; };
 		2C1A44701CB3CC130076518C /* BaseViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A44581CB3CC130076518C /* BaseViewCell.m */; };
 		2C1A44711CB3CC130076518C /* ImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A445B1CB3CC130076518C /* ImageViewCell.m */; };
 		2C1A44721CB3CC130076518C /* ImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C1A445C1CB3CC130076518C /* ImageViewCell.xib */; };
 		2C1A44731CB3CC130076518C /* NormalTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A445E1CB3CC130076518C /* NormalTextCell.m */; };
 		2C1A44741CB3CC130076518C /* NormalTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C1A445F1CB3CC130076518C /* NormalTextCell.xib */; };
-		2C1A44751CB3CC130076518C /* TagsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A44611CB3CC130076518C /* TagsViewCell.m */; };
-		2C1A44761CB3CC130076518C /* TagsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C1A44621CB3CC130076518C /* TagsViewCell.xib */; };
 		2C1A44771CB3CC130076518C /* BottomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A44651CB3CC130076518C /* BottomTabBar.m */; };
 		2C1A44781CB3CC130076518C /* BottomTabBarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A44671CB3CC130076518C /* BottomTabBarItemModel.m */; };
 		2C1A44791CB3CC130076518C /* DaySliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A44691CB3CC130076518C /* DaySliderView.m */; };
@@ -32,9 +38,6 @@
 		2C1A447B1CB3CC130076518C /* HXTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A446C1CB3CC130076518C /* HXTagsView.m */; };
 		2C1A447C1CB3CC130076518C /* TextInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A446E1CB3CC130076518C /* TextInputView.m */; };
 		2C1A447D1CB3CC130076518C /* TextInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C1A446F1CB3CC130076518C /* TextInputView.xib */; };
-		2C526E0B1CB417B500652FC8 /* ChildBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E061CB417B500652FC8 /* ChildBaseViewController.m */; };
-		2C526E0C1CB417B500652FC8 /* FirstTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E081CB417B500652FC8 /* FirstTableView.m */; };
-		2C526E0D1CB417B500652FC8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E0A1CB417B500652FC8 /* SecondViewController.m */; };
 		2C526E2F1CB41C4C00652FC8 /* KOPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E2E1CB41C4C00652FC8 /* KOPopupView.m */; };
 		2C526E431CB41CA500652FC8 /* CalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E321CB41CA500652FC8 /* CalendarDayCell.m */; };
 		2C526E441CB41CA500652FC8 /* CalendarDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E341CB41CA500652FC8 /* CalendarDayModel.m */; };
@@ -45,6 +48,11 @@
 		2C526E491CB41CA500652FC8 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E3E1CB41CA500652FC8 /* CalendarViewController.m */; };
 		2C526E4A1CB41CA500652FC8 /* chack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C526E3F1CB41CA500652FC8 /* chack.png */; };
 		2C526E4B1CB41CA500652FC8 /* NSDate+WQCalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C526E421CB41CA500652FC8 /* NSDate+WQCalendarLogic.m */; };
+		2CAAD4411CB4F44A008E62FC /* BtnCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAAD43F1CB4F44A008E62FC /* BtnCellTableViewCell.m */; };
+		2CAAD4421CB4F44A008E62FC /* BtnCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CAAD4401CB4F44A008E62FC /* BtnCellTableViewCell.xib */; };
+		2CFE76F51CB4FC0B00587FB7 /* TravelLineFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE76F31CB4FC0B00587FB7 /* TravelLineFooterCell.m */; };
+		2CFE76F61CB4FC0B00587FB7 /* TravelLineFooterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CFE76F41CB4FC0B00587FB7 /* TravelLineFooterCell.xib */; };
+		2CFE76F91CB512C500587FB7 /* EditTraveLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE76F81CB512C500587FB7 /* EditTraveLineController.m */; };
 		9A6D6A591CAE0EFB0048C0AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A581CAE0EFB0048C0AE /* main.m */; };
 		9A6D6A5C1CAE0EFB0048C0AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A5B1CAE0EFB0048C0AE /* AppDelegate.m */; };
 		9A6D6A5F1CAE0EFB0048C0AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D6A5E1CAE0EFB0048C0AE /* ViewController.m */; };
@@ -102,6 +110,21 @@
 		2C01C7051CB24EA600BB0E6E /* UIColorSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIColorSetting.h; sourceTree = "<group>"; };
 		2C01C7251CB25B3400BB0E6E /* DateSelectedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateSelectedController.h; sourceTree = "<group>"; };
 		2C01C7261CB25B3400BB0E6E /* DateSelectedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateSelectedController.m; sourceTree = "<group>"; };
+		2C0498E31CB49DFB00431E6F /* NSString+NumToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NumToString.h"; sourceTree = "<group>"; };
+		2C0498E41CB49DFB00431E6F /* NSString+NumToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NumToString.m"; sourceTree = "<group>"; };
+		2C0498E61CB4A29800431E6F /* TravelDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelDayModel.h; sourceTree = "<group>"; };
+		2C0498E71CB4A29800431E6F /* TravelDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelDayModel.m; sourceTree = "<group>"; };
+		2C0498E91CB4A61400431E6F /* TravelDayPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelDayPagerView.h; sourceTree = "<group>"; };
+		2C0498EA1CB4A61400431E6F /* TravelDayPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelDayPagerView.m; sourceTree = "<group>"; };
+		2C0498EC1CB4AFB600431E6F /* TLiManagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLiManagerController.h; sourceTree = "<group>"; };
+		2C0498ED1CB4AFB600431E6F /* TLiManagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLiManagerController.m; sourceTree = "<group>"; };
+		2C0498EF1CB4B5A700431E6F /* TLDayLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLDayLineModel.h; sourceTree = "<group>"; };
+		2C0498F01CB4B5A700431E6F /* TLDayLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLDayLineModel.m; sourceTree = "<group>"; };
+		2C0498F51CB4C2CE00431E6F /* TravelLineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelLineCell.xib; sourceTree = "<group>"; };
+		2C0498FA1CB4DC1A00431E6F /* TravelLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelLineModel.h; sourceTree = "<group>"; };
+		2C0498FB1CB4DC1A00431E6F /* TravelLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelLineModel.m; sourceTree = "<group>"; };
+		2C0498FD1CB4ED1F00431E6F /* TravelLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelLineCell.h; sourceTree = "<group>"; };
+		2C0498FE1CB4ED1F00431E6F /* TravelLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelLineCell.m; sourceTree = "<group>"; };
 		2C1A441B1CB34ED20076518C /* TextCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextCellModel.h; sourceTree = "<group>"; };
 		2C1A441C1CB34ED20076518C /* TextCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextCellModel.m; sourceTree = "<group>"; };
 		2C1A44211CB364D60076518C /* ImageCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCellModel.h; sourceTree = "<group>"; };
@@ -110,8 +133,8 @@
 		2C1A44261CB37CBD0076518C /* CameraTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraTools.m; sourceTree = "<group>"; };
 		2C1A442E1CB3982C0076518C /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		2C1A442F1CB3982C0076518C /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
-		2C1A44391CB3BEEC0076518C /* TravelLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelLineModel.h; sourceTree = "<group>"; };
-		2C1A443A1CB3BEEC0076518C /* TravelLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelLineModel.m; sourceTree = "<group>"; };
+		2C1A44391CB3BEEC0076518C /* TravelLineTotalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelLineTotalModel.h; sourceTree = "<group>"; };
+		2C1A443A1CB3BEEC0076518C /* TravelLineTotalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelLineTotalModel.m; sourceTree = "<group>"; };
 		2C1A44401CB3CA530076518C /* NinaBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinaBaseView.h; sourceTree = "<group>"; };
 		2C1A44411CB3CA530076518C /* NinaBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinaBaseView.m; sourceTree = "<group>"; };
 		2C1A44421CB3CA530076518C /* NinaPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinaPagerView.h; sourceTree = "<group>"; };
@@ -119,8 +142,8 @@
 		2C1A44441CB3CA530076518C /* TopTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopTabView.h; sourceTree = "<group>"; };
 		2C1A44451CB3CA530076518C /* TopTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopTabView.m; sourceTree = "<group>"; };
 		2C1A44461CB3CA530076518C /* UIParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIParameter.h; sourceTree = "<group>"; };
-		2C1A444A1CB3CAE80076518C /* TravelLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelLineViewController.h; sourceTree = "<group>"; };
-		2C1A444B1CB3CAE80076518C /* TravelLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelLineViewController.m; sourceTree = "<group>"; };
+		2C1A444A1CB3CAE80076518C /* TLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLViewController.h; sourceTree = "<group>"; };
+		2C1A444B1CB3CAE80076518C /* TLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLViewController.m; sourceTree = "<group>"; };
 		2C1A44571CB3CC130076518C /* BaseViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewCell.h; sourceTree = "<group>"; };
 		2C1A44581CB3CC130076518C /* BaseViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewCell.m; sourceTree = "<group>"; };
 		2C1A44591CB3CC130076518C /* BaseViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewCellProtocol.h; sourceTree = "<group>"; };
@@ -130,9 +153,6 @@
 		2C1A445D1CB3CC130076518C /* NormalTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalTextCell.h; sourceTree = "<group>"; };
 		2C1A445E1CB3CC130076518C /* NormalTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalTextCell.m; sourceTree = "<group>"; };
 		2C1A445F1CB3CC130076518C /* NormalTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NormalTextCell.xib; sourceTree = "<group>"; };
-		2C1A44601CB3CC130076518C /* TagsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsViewCell.h; sourceTree = "<group>"; };
-		2C1A44611CB3CC130076518C /* TagsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsViewCell.m; sourceTree = "<group>"; };
-		2C1A44621CB3CC130076518C /* TagsViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagsViewCell.xib; sourceTree = "<group>"; };
 		2C1A44641CB3CC130076518C /* BottomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomTabBar.h; sourceTree = "<group>"; };
 		2C1A44651CB3CC130076518C /* BottomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomTabBar.m; sourceTree = "<group>"; };
 		2C1A44661CB3CC130076518C /* BottomTabBarItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomTabBarItemModel.h; sourceTree = "<group>"; };
@@ -145,12 +165,6 @@
 		2C1A446D1CB3CC130076518C /* TextInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextInputView.h; sourceTree = "<group>"; };
 		2C1A446E1CB3CC130076518C /* TextInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextInputView.m; sourceTree = "<group>"; };
 		2C1A446F1CB3CC130076518C /* TextInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextInputView.xib; sourceTree = "<group>"; };
-		2C526E051CB417B500652FC8 /* ChildBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildBaseViewController.h; sourceTree = "<group>"; };
-		2C526E061CB417B500652FC8 /* ChildBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildBaseViewController.m; sourceTree = "<group>"; };
-		2C526E071CB417B500652FC8 /* FirstTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableView.h; sourceTree = "<group>"; };
-		2C526E081CB417B500652FC8 /* FirstTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableView.m; sourceTree = "<group>"; };
-		2C526E091CB417B500652FC8 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		2C526E0A1CB417B500652FC8 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		2C526E2D1CB41C4C00652FC8 /* KOPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOPopupView.h; sourceTree = "<group>"; };
 		2C526E2E1CB41C4C00652FC8 /* KOPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOPopupView.m; sourceTree = "<group>"; };
 		2C526E311CB41CA500652FC8 /* CalendarDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDayCell.h; sourceTree = "<group>"; };
@@ -171,6 +185,14 @@
 		2C526E401CB41CA500652FC8 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
 		2C526E411CB41CA500652FC8 /* NSDate+WQCalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WQCalendarLogic.h"; sourceTree = "<group>"; };
 		2C526E421CB41CA500652FC8 /* NSDate+WQCalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WQCalendarLogic.m"; sourceTree = "<group>"; };
+		2CAAD43E1CB4F44A008E62FC /* BtnCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BtnCellTableViewCell.h; sourceTree = "<group>"; };
+		2CAAD43F1CB4F44A008E62FC /* BtnCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BtnCellTableViewCell.m; sourceTree = "<group>"; };
+		2CAAD4401CB4F44A008E62FC /* BtnCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BtnCellTableViewCell.xib; sourceTree = "<group>"; };
+		2CFE76F21CB4FC0B00587FB7 /* TravelLineFooterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelLineFooterCell.h; sourceTree = "<group>"; };
+		2CFE76F31CB4FC0B00587FB7 /* TravelLineFooterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelLineFooterCell.m; sourceTree = "<group>"; };
+		2CFE76F41CB4FC0B00587FB7 /* TravelLineFooterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelLineFooterCell.xib; sourceTree = "<group>"; };
+		2CFE76F71CB512C500587FB7 /* EditTraveLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditTraveLineController.h; sourceTree = "<group>"; };
+		2CFE76F81CB512C500587FB7 /* EditTraveLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditTraveLineController.m; sourceTree = "<group>"; };
 		9A6D6A541CAE0EFB0048C0AE /* wangyiScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wangyiScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6D6A581CAE0EFB0048C0AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A6D6A5A1CAE0EFB0048C0AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -274,6 +296,8 @@
 				2C1A44261CB37CBD0076518C /* CameraTools.m */,
 				2C1A442E1CB3982C0076518C /* UIColor+Hex.h */,
 				2C1A442F1CB3982C0076518C /* UIColor+Hex.m */,
+				2C0498E31CB49DFB00431E6F /* NSString+NumToString.h */,
+				2C0498E41CB49DFB00431E6F /* NSString+NumToString.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -304,9 +328,15 @@
 				2C1A445D1CB3CC130076518C /* NormalTextCell.h */,
 				2C1A445E1CB3CC130076518C /* NormalTextCell.m */,
 				2C1A445F1CB3CC130076518C /* NormalTextCell.xib */,
-				2C1A44601CB3CC130076518C /* TagsViewCell.h */,
-				2C1A44611CB3CC130076518C /* TagsViewCell.m */,
-				2C1A44621CB3CC130076518C /* TagsViewCell.xib */,
+				2C0498FD1CB4ED1F00431E6F /* TravelLineCell.h */,
+				2C0498FE1CB4ED1F00431E6F /* TravelLineCell.m */,
+				2C0498F51CB4C2CE00431E6F /* TravelLineCell.xib */,
+				2CFE76F21CB4FC0B00587FB7 /* TravelLineFooterCell.h */,
+				2CFE76F31CB4FC0B00587FB7 /* TravelLineFooterCell.m */,
+				2CFE76F41CB4FC0B00587FB7 /* TravelLineFooterCell.xib */,
+				2CAAD43E1CB4F44A008E62FC /* BtnCellTableViewCell.h */,
+				2CAAD43F1CB4F44A008E62FC /* BtnCellTableViewCell.m */,
+				2CAAD4401CB4F44A008E62FC /* BtnCellTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -326,6 +356,8 @@
 				2C1A446D1CB3CC130076518C /* TextInputView.h */,
 				2C1A446E1CB3CC130076518C /* TextInputView.m */,
 				2C1A446F1CB3CC130076518C /* TextInputView.xib */,
+				2C0498E91CB4A61400431E6F /* TravelDayPagerView.h */,
+				2C0498EA1CB4A61400431E6F /* TravelDayPagerView.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -448,18 +480,16 @@
 		9A6D6AA71CAE47520048C0AE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2C526E051CB417B500652FC8 /* ChildBaseViewController.h */,
-				2C526E061CB417B500652FC8 /* ChildBaseViewController.m */,
-				2C526E071CB417B500652FC8 /* FirstTableView.h */,
-				2C526E081CB417B500652FC8 /* FirstTableView.m */,
-				2C526E091CB417B500652FC8 /* SecondViewController.h */,
-				2C526E0A1CB417B500652FC8 /* SecondViewController.m */,
 				9A6D6AA81CAE47520048C0AE /* FirstViewController.h */,
 				9A6D6AA91CAE47520048C0AE /* FirstViewController.m */,
 				2C01C7251CB25B3400BB0E6E /* DateSelectedController.h */,
 				2C01C7261CB25B3400BB0E6E /* DateSelectedController.m */,
-				2C1A444A1CB3CAE80076518C /* TravelLineViewController.h */,
-				2C1A444B1CB3CAE80076518C /* TravelLineViewController.m */,
+				2C1A444A1CB3CAE80076518C /* TLViewController.h */,
+				2C1A444B1CB3CAE80076518C /* TLViewController.m */,
+				2C0498EC1CB4AFB600431E6F /* TLiManagerController.h */,
+				2C0498ED1CB4AFB600431E6F /* TLiManagerController.m */,
+				2CFE76F71CB512C500587FB7 /* EditTraveLineController.h */,
+				2CFE76F81CB512C500587FB7 /* EditTraveLineController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -473,8 +503,14 @@
 				2C1A441C1CB34ED20076518C /* TextCellModel.m */,
 				2C1A44211CB364D60076518C /* ImageCellModel.h */,
 				2C1A44221CB364D60076518C /* ImageCellModel.m */,
-				2C1A44391CB3BEEC0076518C /* TravelLineModel.h */,
-				2C1A443A1CB3BEEC0076518C /* TravelLineModel.m */,
+				2C1A44391CB3BEEC0076518C /* TravelLineTotalModel.h */,
+				2C1A443A1CB3BEEC0076518C /* TravelLineTotalModel.m */,
+				2C0498E61CB4A29800431E6F /* TravelDayModel.h */,
+				2C0498E71CB4A29800431E6F /* TravelDayModel.m */,
+				2C0498EF1CB4B5A700431E6F /* TLDayLineModel.h */,
+				2C0498F01CB4B5A700431E6F /* TLDayLineModel.m */,
+				2C0498FA1CB4DC1A00431E6F /* TravelLineModel.h */,
+				2C0498FB1CB4DC1A00431E6F /* TravelLineModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -682,12 +718,14 @@
 				2C1A44741CB3CC130076518C /* NormalTextCell.xib in Resources */,
 				2C1A447D1CB3CC130076518C /* TextInputView.xib in Resources */,
 				9A6D6AA51CAE45CB0048C0AE /* Main.storyboard in Resources */,
-				2C1A44761CB3CC130076518C /* TagsViewCell.xib in Resources */,
+				2C0498F61CB4C2CE00431E6F /* TravelLineCell.xib in Resources */,
 				9A6D6A671CAE0EFB0048C0AE /* LaunchScreen.storyboard in Resources */,
 				9A6D6AF61CAE4D660048C0AE /* BoPhotoPicker.bundle in Resources */,
 				2C526E4A1CB41CA500652FC8 /* chack.png in Resources */,
+				2CAAD4421CB4F44A008E62FC /* BtnCellTableViewCell.xib in Resources */,
 				2C1A44721CB3CC130076518C /* ImageViewCell.xib in Resources */,
 				2C1A447A1CB3CC130076518C /* DaySliderView.xib in Resources */,
+				2CFE76F61CB4FC0B00587FB7 /* TravelLineFooterCell.xib in Resources */,
 				9A6D6A641CAE0EFB0048C0AE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -714,14 +752,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C1A44481CB3CA530076518C /* NinaPagerView.m in Sources */,
-				2C1A44751CB3CC130076518C /* TagsViewCell.m in Sources */,
+				2C0498FF1CB4ED1F00431E6F /* TravelLineCell.m in Sources */,
 				9A6D6AF71CAE4D660048C0AE /* AJPhotoBrowserViewController.m in Sources */,
 				9A6D6AF31CAE4D660048C0AE /* AJPhotoListCellTapView.m in Sources */,
 				9A6D6A5F1CAE0EFB0048C0AE /* ViewController.m in Sources */,
 				2C1A44771CB3CC130076518C /* BottomTabBar.m in Sources */,
 				2C526E441CB41CA500652FC8 /* CalendarDayModel.m in Sources */,
 				2C01C7271CB25B3400BB0E6E /* DateSelectedController.m in Sources */,
-				2C526E0D1CB417B500652FC8 /* SecondViewController.m in Sources */,
 				9A6D6AF41CAE4D660048C0AE /* AJPhotoListView.m in Sources */,
 				9A6D6AFC1CAE4D660048C0AE /* MASConstraint.m in Sources */,
 				9A6D6AFF1CAE4D660048C0AE /* MASViewAttribute.m in Sources */,
@@ -732,18 +769,21 @@
 				2C526E491CB41CA500652FC8 /* CalendarViewController.m in Sources */,
 				2C1A441D1CB34ED20076518C /* TextCellModel.m in Sources */,
 				2C1A44491CB3CA530076518C /* TopTabView.m in Sources */,
-				2C526E0B1CB417B500652FC8 /* ChildBaseViewController.m in Sources */,
 				9A6D6AFB1CAE4D660048C0AE /* MASCompositeConstraint.m in Sources */,
 				9A6D6B031CAE4D660048C0AE /* View+MASAdditions.m in Sources */,
+				2CAAD4411CB4F44A008E62FC /* BtnCellTableViewCell.m in Sources */,
+				2CFE76F51CB4FC0B00587FB7 /* TravelLineFooterCell.m in Sources */,
 				2C1A44701CB3CC130076518C /* BaseViewCell.m in Sources */,
 				2C1A447B1CB3CC130076518C /* HXTagsView.m in Sources */,
 				9A6D6AF91CAE4D660048C0AE /* AJPhotoZoomingScrollView.m in Sources */,
 				2C526E481CB41CA500652FC8 /* CalendarMonthHeaderView.m in Sources */,
+				2C0498E51CB49DFB00431E6F /* NSString+NumToString.m in Sources */,
 				9A6D6AF51CAE4D660048C0AE /* AJPhotoPickerViewController.m in Sources */,
 				9A6D6AF01CAE4D660048C0AE /* AJPhotoGroupCell.m in Sources */,
 				9A6D6A5C1CAE0EFB0048C0AE /* AppDelegate.m in Sources */,
 				9A6D6B011CAE4D660048C0AE /* NSArray+MASAdditions.m in Sources */,
 				2C526E451CB41CA500652FC8 /* CalendarHomeViewController.m in Sources */,
+				2C0498EB1CB4A61400431E6F /* TravelDayPagerView.m in Sources */,
 				9A6D6B021CAE4D660048C0AE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				2C1A44711CB3CC130076518C /* ImageViewCell.m in Sources */,
 				9A6D6AF81CAE4D660048C0AE /* AJPhotoTapDetectingImageView.m in Sources */,
@@ -751,23 +791,27 @@
 				2C1A44271CB37CBD0076518C /* CameraTools.m in Sources */,
 				2C01C6FE1CB1811400BB0E6E /* BaseCellModel.m in Sources */,
 				9A6D6AF11CAE4D660048C0AE /* AJPhotoGroupView.m in Sources */,
+				2CFE76F91CB512C500587FB7 /* EditTraveLineController.m in Sources */,
 				2C526E461CB41CA500652FC8 /* CalendarLogic.m in Sources */,
+				2C0498E81CB4A29800431E6F /* TravelDayModel.m in Sources */,
 				2C1A44471CB3CA530076518C /* NinaBaseView.m in Sources */,
 				2C526E431CB41CA500652FC8 /* CalendarDayCell.m in Sources */,
 				9A6D6AFA1CAE4D660048C0AE /* AJTapDetectingView.m in Sources */,
 				9A6D6B001CAE4D660048C0AE /* MASViewConstraint.m in Sources */,
-				2C1A443B1CB3BEEC0076518C /* TravelLineModel.m in Sources */,
-				2C1A444D1CB3CAE80076518C /* TravelLineViewController.m in Sources */,
+				2C1A443B1CB3BEEC0076518C /* TravelLineTotalModel.m in Sources */,
+				2C1A444D1CB3CAE80076518C /* TLViewController.m in Sources */,
 				9A6D6AFD1CAE4D660048C0AE /* MASConstraintMaker.m in Sources */,
 				2C1A447C1CB3CC130076518C /* TextInputView.m in Sources */,
+				2C0498F11CB4B5A700431E6F /* TLDayLineModel.m in Sources */,
 				2C526E471CB41CA500652FC8 /* CalendarMonthCollectionViewLayout.m in Sources */,
 				2C1A44781CB3CC130076518C /* BottomTabBarItemModel.m in Sources */,
 				9A6D6A591CAE0EFB0048C0AE /* main.m in Sources */,
 				9A6D6AF21CAE4D660048C0AE /* AJPhotoListCell.m in Sources */,
 				9A6D6AFE1CAE4D660048C0AE /* MASLayoutConstraint.m in Sources */,
-				2C526E0C1CB417B500652FC8 /* FirstTableView.m in Sources */,
 				2C526E4B1CB41CA500652FC8 /* NSDate+WQCalendarLogic.m in Sources */,
+				2C0498EE1CB4AFB600431E6F /* TLiManagerController.m in Sources */,
 				9A6D6A8E1CAE0FE40048C0AE /* TopScrollView.m in Sources */,
+				2C0498FC1CB4DC1A00431E6F /* TravelLineModel.m in Sources */,
 				2C526E2F1CB41C4C00652FC8 /* KOPopupView.m in Sources */,
 				9A6D6A981CAE12080048C0AE /* ButtomScrollView.m in Sources */,
 				9A6D6AEF1CAE4D660048C0AE /* AJGradientView.m in Sources */,
@@ -913,7 +957,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = wangyiScrollView/PrefixHeader.pch;
 				INFOPLIST_FILE = wangyiScrollView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hello.wangyiScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -926,7 +970,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = wangyiScrollView/PrefixHeader.pch;
 				INFOPLIST_FILE = wangyiScrollView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hello.wangyiScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";

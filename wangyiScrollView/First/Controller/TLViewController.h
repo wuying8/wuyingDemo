@@ -1,5 +1,5 @@
 //
-//  TravelLineViewController.h
+//  TLViewController.h 多天线路详情控制器
 //  wangyiScrollView
 //
 //  Created by 无影 on 16/4/5.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TravelLineViewController : UIViewController
+@interface TLViewController : UIViewController
+
+@property (nonatomic ,assign) NSInteger dayCount;
 
 @end

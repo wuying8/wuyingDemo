@@ -47,4 +47,5 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import "UIColorSetting.h"
+#import "UIParameter.h"
 #endif
